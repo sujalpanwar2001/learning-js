@@ -35,3 +35,27 @@ const myFunction = function(){     // return type function
 console.log(typeof bigNumber)
 
 
+// +++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "sujalpanwardotcom"
+
+let anotherName = myYoutubename
+anotherName = "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anotherName)
+
+
+let user1 = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "sujal@google.com"
+
+console.log(user1.email)
+console.log(user2.email)
