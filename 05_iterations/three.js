@@ -13,8 +13,8 @@ const greetings = "Hello world!"
 for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
-
-// Maps
+// for arrays, strings, map ----> for of loop
+// Maps   ---> unique and in same order of insertion 
 
 const map = new Map()
 map.set('IN', "India")
@@ -34,6 +34,7 @@ const myObject = {
     game2: 'Spiderman'
 }
 
+// object is not iteratable 
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value);
     

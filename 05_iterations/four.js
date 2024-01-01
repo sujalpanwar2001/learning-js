@@ -1,10 +1,12 @@
+// in For In loop, keys come out while printing, and access using arr[key], obj[key]
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
     rb: "ruby",
     swift: "swift by apple"
 }
-
+// for map, array, strings ----> for of loop
+// for object -----> for in loop
 for (const key in myObject) {
     //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
@@ -24,3 +26,4 @@ for (const key in programming) {
 // for (const key in map) {
 //     console.log(key);
 // }
+// map cant be accessed using for in loop because its not iterable
