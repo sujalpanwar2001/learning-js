@@ -62,3 +62,14 @@ form.addEventListener('submit', (event) => {
   }
 });
 ```
+
+## project 3 (Digital Clock)
+```javascript 
+const currtime = document.querySelector('#clock');
+
+setInterval(() => {
+  const today = new Date();
+  const time = today.toLocaleTimeString();
+  currtime.innerHTML = time;
+}, 1000);
+```
